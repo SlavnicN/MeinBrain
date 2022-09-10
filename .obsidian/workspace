@@ -1,0 +1,114 @@
+{
+  "main": {
+    "id": "f4ec882f183db00d",
+    "type": "split",
+    "children": [
+      {
+        "id": "d9a3b381663e448e",
+        "type": "leaf",
+        "state": {
+          "type": "markdown",
+          "state": {
+            "file": "testTemplate.md",
+            "mode": "source",
+            "source": false
+          }
+        }
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "de9e7f8667fd7450",
+    "type": "split",
+    "children": [
+      {
+        "id": "eeaa3a735416223b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6085eaf9b3573e97",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {}
+            }
+          },
+          {
+            "id": "b50fe92e1c073d36",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "noh",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 323
+  },
+  "right": {
+    "id": "dcb149e788d86271",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ca25a43114d2027",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b2acca8bd2b8e9d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "testTemplate.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "15c0886cae2eec4b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "active": "d9a3b381663e448e",
+  "lastOpenFiles": [
+    "Vim shortcut.md",
+    "LogBook/Todo/Config Tool.md",
+    "Autocompletion in zsh + startship + kitty.md",
+    "Airdrop token problematic.md",
+    "blockchain.md",
+    "replay attack.md",
+    "Account nonce.md",
+    "Casion POC FAQ.md",
+    "Attente de la meditation.md",
+    "contract script in origination.md"
+  ]
+}
