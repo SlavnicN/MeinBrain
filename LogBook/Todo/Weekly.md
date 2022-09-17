@@ -6,6 +6,8 @@
 - [ ] Casion POC
     - [x] Meeting with Maxime
     - [ ] Write some test 
+    - [ ] Test the emit function 
+    - [ ] do a table to explain the roles
 
 - [ ] Modify test integration .inject() to send()
 - [ ] Change mail xdev to Eniblock

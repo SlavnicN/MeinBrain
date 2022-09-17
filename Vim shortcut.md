@@ -8,12 +8,13 @@ Shift ZQ = force quite
 Shift ZZ = save and quite 
 zz = put line in middle 
 zt = put line top 
-I, a = insert stuff
+			I, a = insert stuff
 D = end of line 
 $, ^0 go end or begining of line JJ
 num dd = delete the number of line indicated 
 daw = delete the word you are on
 di( = delete everything inside the () 
+da( : delete everything inside and the ()
 :earlier 5m = jump 5min ago in your text
 % on a parentheses = check the closing parentheses
 Ctrl + r = redo 
@@ -33,3 +34,4 @@ s : remove a chara like x, but put in insert mode
 S : remove the all line and put into insert mode
 Try VimBeGood
 `{line}gg` Go to {line}
+viw: select a word you are on no matter where is the cursor

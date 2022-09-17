@@ -9,15 +9,20 @@
 - [ ] setup plugin git 
 - [ ] Look for a nice diff tool 
     - [ ] https://twitter.com/elijahmanor/status/1564251526633123840?s=20&t=T7J2g5SducUy3cyZyJ1-5A
+    - [ ] https://github.com/sindrets/diffview.nvim
 - [ ] Replace devicon to Nvim-web-devicons (is it really necessary)
 - [ ] Add debuging pluggin 
 - [ ] Asynchronous Lint Engine - https://github.com/dense-analysis/ale
 - [ ] Better floating box: https://github.com/doums/suit.nvim
 - [ ] subtile highlight for object same name: https://github.com/RRethy/vim-illuminate
 - [ ] some pretty tree for todo: https://github.com/phaazon/mind.nvim
-- [ ] Add a middle line to know limit to write a line
+- [x] Add a middle line to know limit to write a line
 - [ ] Ctrl + D/U put the line in the middle of the screen 
 - [x] Configure Telescope to also take in account the file in gitignore
+- [ ] Undotree to get a history of what you have done in changes 
+- [ ] Add icon in the nvm-cmp https://github.com/onsails/lspkind.nvim
+- [ ] linting for solidity (not ALE)
+- [ ] pimp treesitter to have the context of the function on top fo the file https://github.com/nvim-treesitter/nvim-treesitter-context
 
 -- links
 ideas from pluggin here: https://github.com/weebcyberpunk/nyanvim
