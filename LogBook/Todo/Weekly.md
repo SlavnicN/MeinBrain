@@ -1,42 +1,66 @@
+# Week 25 - 30 sept
 
-# Week 05 -> 09 Sept
 -- Meetings
 
 -- High
+
 - [ ] Casion POC
-    - [x] Meeting with Maxime
-    - [ ] Write some test 
-    - [ ] Test the emit function 
-    - [ ] do a table to explain the roles
+  - [ ] Reorginse discribe and it test
+  - [ ] Replace requires with error solidity, better gas usage
+  - [ ] GetInfo change to return srtuct instead of list of returns var
+  - [ ] Create interface with the const for Roles and for data struct maybe  
 
 - [ ] Modify test integration .inject() to send()
 - [ ] Change mail xdev to Eniblock
 - [ ] Change LinkedIn
 - [ ] Prepare Welcom to the Jungle itw
-- [x] Pull request for Pytezos
-- [ ] Add more unit test throug pytezos RELP 
-    - [ ] create (not everything)
-    - [ ] bid (not everything)
-    - [ ] claime (not everything)
-    - [ ] cancel
-    - [ ] kill
-    - [ ] set pause
-    - [ ] set certifier
-- [ ] Search for top 10 security breach on Tezos SC 
-- [ ] Do same work done on working group for eth 
+- [ ] Add more unit test throug pytezos RELP
+  - [ ] create (not everything)
+  - [ ] bid (not everything)
+  - [ ] claime (not everything)
+  - [ ] cancel
+  - [ ] kill
+  - [ ] set pause
+  - [ ] set certifier
+- [ ] Search for top 10 security breach on Tezos SC
+- [ ] Do same work done on working group for eth
 - [ ] Play with Ethernaut
-    - [ ] Add Wallet on Slack 
-	- [ ] 1. Fallback
+  - [ ] Add Wallet on Slack
+  - [ ] 1. Fallback
 
--- Medium 
-- [ ] Play with tenderly 
+-- Medium
+
+- [ ] Play with tenderly
 - [ ] Play with snapshot HH
 - [ ] Update Swap SC HTCL, Security
 - [ ] Add terminal Solidity
 - [ ] Account Infura
 - [ ] How to dev eth wallet
 - [ ] Try Rust Dev Node
-- [ ] Check Rust in BC (https://ink.substrate.io/) 
+- [ ] Check Rust in BC (<https://ink.substrate.io/>)
+# Week 05 -> 09 Sept
+
+-- Meetings
+
+-- High
+
+- [ ] Casion POC
+  - [X] Meeting with Maxime
+  - [X] Write some test
+  - [X] Write event
+    - [X] Test event
+  - [X] do a table to explain the roles
+  - [X] Test coverage
+  - [X] Track gas consumtion
+  - [X] Change MANGER_ROLE to MANAGER_INV_ROLE and replace them by owner for functional usage
+      Manager role is for a real persone, it's more for calculate the dividend etc
+  - [X] Add whitelist/blacklist role instead of using only Investor role for that(investor role
+      doesn't have any functional interest in the smart contract)
+      By default you should be blacklist while you are whitlisted by the entrypoint
+  - [X] No need for ownable put multisig as DEFAULT ROLE
+
+- [X] Pull request for Pytezos
+
 
 # Week 29 -> 2 August
 -- High

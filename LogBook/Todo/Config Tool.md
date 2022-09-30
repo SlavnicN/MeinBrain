@@ -16,13 +16,16 @@
 - [ ] Better floating box: https://github.com/doums/suit.nvim
 - [ ] subtile highlight for object same name: https://github.com/RRethy/vim-illuminate
 - [ ] some pretty tree for todo: https://github.com/phaazon/mind.nvim
-- [x] Add a middle line to know limit to write a line
+- [X] Add a middle line to know limit to write a line
 - [ ] Ctrl + D/U put the line in the middle of the screen 
-- [x] Configure Telescope to also take in account the file in gitignore
+- [X] Configure Telescope to also take in account the file in gitignore
 - [ ] Undotree to get a history of what you have done in changes 
 - [ ] Add icon in the nvm-cmp https://github.com/onsails/lspkind.nvim
 - [ ] linting for solidity (not ALE)
 - [ ] pimp treesitter to have the context of the function on top fo the file https://github.com/nvim-treesitter/nvim-treesitter-context
+- [ ] have a cursor that move smoothly 
+    - https://www.reddit.com/r/neovim/comments/xfjxoy/new_awesome_cursor_plugin/
+    - https://github.com/karb94/neoscroll.nvim
 
 -- links
 ideas from pluggin here: https://github.com/weebcyberpunk/nyanvim
@@ -42,7 +45,7 @@ list of pluggins: https://github.com/chengwei920412/awesome-neovim-vim
 - [ ] Improve color theme nord 
 - [ ] Improve animation picom
 - [ ] Better status bar + widget
-- [x] Better Font with ligature and better icon (Fira Code)
+- [X] Better Font with ligature and better icon (Fira Code)
 
 
 -- links ideas:
@@ -68,40 +71,41 @@ https://www.reddit.com/r/unixporn/comments/w58g9p/dwm_phyos_beta_iso_released_so
 	- [ ] NOT FOR NOW ! WAIT END OF YEAR ! 
 	- [ ] FOCUS ON ACTUAL WORK BEFORE THINKING OPTI
 	- [ ] YOU DON'T NEED IT 
-- [ ] Add .config into your github
-- [ ] Notes in your github too
+- [X] Add .config into your github
+- [X] Notes in your github too
 - [ ] look into git tree thing 
-- [ ] Spotify in terminal 
+- [X] Spotify in terminal (no need)
+- [ ] Install colemake on ubuntu
 
 
 
 # DONE
 ## NeoVim
-- [x] global search: Telescope.nvim
-    - [x] configure and play with it
-	- [x] Setup leader key for thing like telescope.nvim, 
-	- [x] Add ripgrep
-	- [x] Add fuzzy search on the word on the cursor (grepstring cmd)
-- [x] floating terminal in neovim  (too much with the dwm?) (Dont need that) 
-- [x] Org-mode like: https://github.com/nvim-neorg/neorg (Using Telekasten for now) 
-- [x] Neerdtree (Leader + t ) 
-- [x] copypast
+- [X] global search: Telescope.nvim
+    - [X] configure and play with it
+	- [X] Setup leader key for thing like telescope.nvim, 
+	- [X] Add ripgrep
+	- [X] Add fuzzy search on the word on the cursor (grepstring cmd)
+- [X] floating terminal in neovim  (too much with the dwm?) (Dont need that) 
+- [X] Org-mode like: https://github.com/nvim-neorg/neorg (Using Telekasten for now) 
+- [X] Neerdtree (Leader + t ) 
+- [X] copypast
 - [ ] [[Which autocompletion]]
-	- [x] Setup built-in LSP
-	- [x] Add python
-	- [x] Add go 
-	- [x] Add javascript
-	- [x] [[Setting up Solidity LSP]]
-- [x] Search for how to change font size in neovide (Won't use prefere the neovim in Kitty for now)
-- [x] Config smooth scrolling and rapid (Using only D-U, and ok with that)
-- [x] configure lualine
-- [x] Look for a workflow where I'm not always quiting entering terminal 
-	- [x] Use of Telescope and repgrep
-- [x] Configure Nord theme in neovim to have a better background style with hovering popup
+	- [X] Setup built-in LSP
+	- [X] Add python
+	- [X] Add go 
+	- [X] Add javascript
+	- [X] [[Setting up Solidity LSP]]
+- [X] Search for how to change font size in neovide (Won't use prefere the neovim in Kitty for now)
+- [X] Config smooth scrolling and rapid (Using only D-U, and ok with that)
+- [X] configure lualine
+- [X] Look for a workflow where I'm not always quiting entering terminal 
+	- [X] Use of Telescope and repgrep
+- [X] Configure Nord theme in neovim to have a better background style with hovering popup
 
 ## DWM
 
-- [x] setup ModKey + j/k to switch focus on windows (currently it move)
+- [X] setup ModKey + j/k to switch focus on windows (currently it move)
 - [X] clean up the file( put in .config/suckless, remove unecessayr file, change the dwm.desktop…)
 - [X] need a status bar
     - https://github.com/elkowar/eww
@@ -112,16 +116,16 @@ https://www.reddit.com/r/unixporn/comments/w58g9p/dwm_phyos_beta_iso_released_so
 - [X] volume use amixer ( https://wiki.gentoo.org/wiki/Dwm)
 - [X] rounded window and transparent y
 	- done with picom
-- [x] Config transparency
+- [X] Config transparency
 - [X] try alacry (rust terminal)
-- [x] [https://tools.suckless.org/slock/](https://tools.suckless.org/slock/) 
+- [X] [https://tools.suckless.org/slock/](https://tools.suckless.org/slock/) 
 	- use a repo git to just have a blurry screen when locked, no message
 	- added shortcut for that 
 - [X] Luminosity shortcut special key 
 ## Software and Other
 - [X] Try Qtbrowser -> no extsion support, not very convinient with 1password
-- [x] Look why lualine not pretty through terminal
-	- [x] It was because of ligature not supported -> switch to kitty !
-- [x] fix color font of alacritty to Nord theme (not working)
+- [X] Look why lualine not pretty through terminal
+	- [X] It was because of ligature not supported -> switch to kitty !
+- [X] fix color font of alacritty to Nord theme (not working)
 - [X] Try Awsome tilt manager
 - [X] Try to make gnom more like a tilting WM 
