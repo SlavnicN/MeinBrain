@@ -1,6 +1,6 @@
 202208031737
 Status: #idea
-Tags: [[gas station]][[meta-transaction]][[blockchain]] [[
+Tags: [[gas station]][[meta-transaction]][[blockchain]] 
 
 # Airdrop token problematic
 - let's take the example of a project airdroping token on a wallet created during the onboarding of the 

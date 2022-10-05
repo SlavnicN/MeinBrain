@@ -39,6 +39,9 @@ Tags:
 - [ ] Who can pause unpause a contract ? Eniblock or Casino (-> so multisig)
 - [ ] Can we mint on an address that is not a user yet ?
 
+- [ ] how to fix openzepplin version solidity to match our contract
+- [ ] do we need to add gap[50] at the end of our sc 
+
 Casino specific question: 
 - [ ] Should casino make vote available for investor for dividend ?
 - [ ] Sould be able to transfer to an address if it doesn't have liquidity balance

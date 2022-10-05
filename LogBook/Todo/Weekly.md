@@ -5,10 +5,13 @@
 -- High
 
 - [ ] Casion POC
-  - [ ] Reorginse discribe and it test
-  - [ ] Replace requires with error solidity, better gas usage
-  - [ ] GetInfo change to return srtuct instead of list of returns var
+  - [X] Reorginse discribe and it test
+  - [X] Replace requires with error solidity, better gas usage
+  - [X] GetInfo change to return srtuct instead of list of returns var
   - [ ] Create interface with the const for Roles and for data struct maybe  
+  - [ ] Add CI to gitlab branch dev_casino 
+
+- [ ] Audit exercise TheSandbox  
 
 - [ ] Modify test integration .inject() to send()
 - [ ] Change mail xdev to Eniblock
