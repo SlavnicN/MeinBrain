@@ -1,9 +1,10 @@
 2022-09-05
-Tags:
+Tags: [[Casino]]
 
 # Casion POC FAQ
 
-- [ ] verify gas consomation with multi heritage of the same class (<https://miro.com/app/board/uXjVOUCqDo0=/?moveToWidget=3458764532162680571&cot=14>)
+- [ ] verify gas consomation with multi heritage of the same class 
+    (<https://miro.com/app/board/uXjVOUCqDo0=/?moveToWidget=3458764532162680571&cot=14>)
 - [ ] Role is in Multisig ?
 - [ ] Check solmate instead of openZepplin for ERC20
 - [ ] Demande a Maxime, Do we do everything from scratch for proxy or use Hardhat pluggin ?

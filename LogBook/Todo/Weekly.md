@@ -1,35 +1,45 @@
-# Week 25 - 30 sept
 
--- Meetings
+# Week 10 - 14 oct
 
 -- High
 
-- [ ] Casion POC
-  - [X] Reorginse discribe and it test
-  - [X] Replace requires with error solidity, better gas usage
-  - [X] GetInfo change to return srtuct instead of list of returns var
-  - [ ] Create interface with the const for Roles and for data struct maybe  
-  - [ ] Add CI to gitlab branch dev_casino 
+- Casion POC
+    - [X] Write TBR spec/doc for Casino jira tickets
+    - [X] Read the SVP Casino
+    - [ ] (maybe) Create interface with the const for Roles and for data struct
+    - [ ] Add CI to gitlab branch dev_casino 
+    - [ ] Add reentrancy protection and do a checkup with the list
+    - [ ] Add check isContract()
+      ->  maybe we don't need it since the only contract address is used 
+          during deployment 
+    - [ ] Add smock test
+    - [ ] try test with foundry 
 
-- [ ] Audit exercise TheSandbox  
+- AAVE fork:
+    - [X] Understant why deploy doesn't work 
+        -> the TX were stuck in pending because the gas paid was too low to 
+            be processed 
 
-- [ ] Modify test integration .inject() to send()
-- [ ] Change mail xdev to Eniblock
-- [ ] Change LinkedIn
-- [ ] Prepare Welcom to the Jungle itw
-- [ ] Add more unit test throug pytezos RELP
-  - [ ] create (not everything)
-  - [ ] bid (not everything)
-  - [ ] claime (not everything)
-  - [ ] cancel
-  - [ ] kill
-  - [ ] set pause
-  - [ ] set certifier
-- [ ] Search for top 10 security breach on Tezos SC
-- [ ] Do same work done on working group for eth
-- [ ] Play with Ethernaut
-  - [ ] Add Wallet on Slack
-  - [ ] 1. Fallback
+- HR - Administratif 
+    - [ ] Change mail xdev to Eniblock
+    - [ ] Change LinkedIn
+    - [ ] Prepare Welcom to the Jungle itw
+        - [ ] First version 
+        - [ ] Train with people 
+    - [X] Github Eniblock account 
+    - [X] Resume update for Eniblock
+
+- Skill rampup
+    - [ ] Play with Ethernaut
+      - [X] Add Wallet on Slack
+      - [ ] 1. Fallback
+      - [X] Recovery (web3 team workshop) 
+
+- Web3 team workshop
+    - [ ] require vs import in .js 
+    - [ ] how to see if hh node is on the fork 
+    - [ ] how to find the block number when a SC was deployed 
+    - [ ] Can't access to the contract via the fork, use the hardhat console ? 
 
 -- Medium
 
@@ -41,13 +51,36 @@
 - [ ] How to dev eth wallet
 - [ ] Try Rust Dev Node
 - [ ] Check Rust in BC (<https://ink.substrate.io/>)
+- [ ] Search for top 10 security breach on Tezos SC
+- [ ] Do same work done on working group for eth
+
+# Week 25 - 30 sept
+
+-- High
+
+- Casion POC
+  - [X] Reorginse discribe and it test
+  - [X] Replace requires with error solidity, better gas usage
+  - [X] GetInfo change to return srtuct instead of list of returns var
+  - [X] Clean format
+
+- AAVE fork:
+    - [X] Understant why deploy doesn't work 
+        -> the TX were stuck in pending because the gas paid was too low to 
+            be processed 
+
+- [X] Audit exercise TheSandbox  
+    - [X] List basic vulnerability to check
+    - [X] Understand the smartcontract
+    - [X] Review done 
+
 # Week 05 -> 09 Sept
 
 -- Meetings
 
 -- High
 
-- [ ] Casion POC
+- Casion POC
   - [X] Meeting with Maxime
   - [X] Write some test
   - [X] Write event
@@ -67,8 +100,8 @@
 
 # Week 29 -> 2 August
 -- High
-- [ ] Casion token
-    - [x] Keep same entry point for multisig 
+- Casion token
+    - [X] Keep same entry point for multisig 
 
 # Week 22 -> 26 August
 -- Meetings

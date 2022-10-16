@@ -63,6 +63,7 @@ https://www.reddit.com/r/unixporn/comments/w58g9p/dwm_phyos_beta_iso_released_so
 - [ ] add icon for files 
 
 # Software and Other
+- [ ] Setup my latex cv in VScode and github
 - [ ] [[Autocompletion in zsh + startship + kitty]]
 - [ ] Clean Linux home
 - [ ] check out LibreWolf browser 

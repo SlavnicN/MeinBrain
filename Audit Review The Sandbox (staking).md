@@ -6,7 +6,6 @@ Tags: [[How to Audit a Smart contract]]
 ## Idea 
 
 - Replace require by error for better gas management 
-- computeContribution: call backend for passive update, Manipulation of Oracle ? 
 - they are some "randomness" in folder raffle, game, catalyst, is there any inheritance here ?
 - race condition: the ERC20 approve mitigate by the safeERC20 ? 
 
