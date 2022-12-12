@@ -1,0 +1,173 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.85]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Nikola}{Slavnic}
+\title{Développeur Blockchain}                               % optional, remove / comment the line if not wanted
+%\address{street and number}{postcode city}{Paris}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{06.87.75.53.82}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{slavnic.n@gmail.com}                                % optional, remove / comment the line if not wanted
+\homepage{ www.linkedin.com/in/nsla}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+
+\makecvtitle
+\vspace{-3ex}
+\section{Introduction}
+{
+    Enthousiaste développeur \textbf{smart contract} et \textbf{web3} avec une 
+    passion pour l’univers de la blockchain. Spécialisé dans les 
+    technologies \textbf{Ethereum}, \textbf{Solidity}, 
+    \textbf{Librairies Web3}.
+    À la recherche continue d’innovations, de challenges et de nouveaux moyens 
+    d’améliorations.
+}
+\vspace{2ex}
+\section{Compétences}
+\vspace{0.5ex}
+\subsection{Blockchain}
+\cvcomputer{\textcolor{color2}{Framework}}{Hardhat, Foundry, Tenderly, Truffle, Ganache}
+{\textcolor{color2}{Defi}}{AAVE, Uniswap}{}
+
+\cvcomputer{\textcolor{color2}{Librairies}}{Ethers.js, OpenZeppelin, solmate }
+{\textcolor{color2}{Autres}}{Ethernaut, Smart contract Audit, TheGraph, Alchemy, GnosisSafe, Tezos}{}
+
+\cvcomputer{\textcolor{color2}{Marketplace}}{Seaport/Opensea, Rarible, Zora}
+{\textcolor{color2}{Standard}}{BIP39, EIP (2771, 712, ...) usage}{}
+
+\vspace{1ex}
+\subsection{Autres}
+
+\cvcomputer{\textcolor{color2}{Programmation}}{Solidity, Javascript, Python}
+{\textcolor{color2}{Web}}{React, Nodejs, Graphql, IPFS}{}
+
+\cvcomputer{\textcolor{color2}{Cryptographie}}{ECDSA, ZKP, Signature, Sym/Asym}
+{\textcolor{color2}{Langues}}{Français, Anglais, Serbe}{}
+
+\vspace{2ex}
+\section{Experience}
+%\subsection{Vocational}
+\cventry{\textcolor{color2}{Août-Nov 2022}}{Développeur Blockchain}{Casino Groupe}{Paris}{}{
+\begin{itemize}%
+    \item Développement d'\textbf{ERC-20} représentant des parts de biens 
+        immobiliers ainsi que leur implémentation dans un fork d'\textbf{AAVE} 
+        avec la mise en place d'un \textbf{GnosisSafe}. Déploiement fait 
+        sur \textbf{Mumbai} et \textbf{Goerli}.
+\end{itemize}
+}   % arguments 3 to 6 can be left empty
+
+\cventry{\textcolor{color2}{Depuis March 2022}}{Développeur Blockchain}{Eniblock}{Paris}{}{
+\begin{itemize}%
+\item Développement de smart contract \textbf{ERC-20} et multi-signature avec 
+    \textbf{OpenZeppelin}.
+\item Implémentation d'une \textbf{Dapp} en \textbf{React} avec l'intégration
+    de l'\textbf{EIP-712} et  d'un smart contract qui vérifie la signature dans 
+    l'optique de fournir un service d'\textbf{airdrop}.
+\item Implémentation d'un prototype de marketplace on-chain avec l'utilisation 
+    des \textbf{EIP-721, 1155, 2981} ainsi que recherche faite autour de 
+        \textbf{lazy mint} et \textbf{gas station}.
+\item Implémentation et intégration de tests et de CI/CD pour différents projets.
+\item Veille technologique de l'écosystème de la blockchain ainsi que de 
+    nombreuses présentations et partage de connaissance faits en interne.
+\item Passage d'entretien à de potentielle nouvelle recrue pour le poste de 
+     Développeur Blockchain.
+\end{itemize}
+}
+%\cventry{\textcolor{color2}{Sept 2019 - Jan 2022}}{Software Engineer in Digital R\&D}{Thales (ex Gemalto)}{Paris}{}{
+%\begin{itemize}%
+%\item Implementing a proof of concept on post-quantum cryptography algorithm (LMS, Crystals-Dilithium) in order to prepare products for quantum threat
+%\end{itemize}
+%}
+\cventry{\textcolor{color2}{2015-2022}}{Développeur R\&D Identité Digitale}{Gemalto/Thales}{Paris}{}{
+%
+\begin{itemize}%
+\item Lead Dev sur le projet de Biométrie: développement du produit, 
+    implémentation des tests, écriture des spécifications ainsi que l'intégration
+    des algorithmes de reconnaissance faciale et iris.
+\item Implémentation d'un prototype utilisant la cryptographie post-quantique 
+    (LMS, Crystals-Dilithium) dans le but de préparer les produits au danger des
+    ordinateurs quantiques.
+\item Implémentation et amélioration du code et des tests sur différents projets
+    de l'équipe d'identité digitale. 
+\end{itemize}
+\textbf{Technologies}: Javacard, C/C++, .NET, Git
+}
+\cventry{\textcolor{color2}{Mars--Aug 2015}}{Développeur Logiciel}{Gemalto}{Paris}{}{
+%
+\begin{itemize}%
+\item Développement d'un prototype de passerelle qui analyse et sécurise, grâce 
+    au chiffrement homomorphe, les transactions faites entre un utilisateur et 
+    un Service Cloud. 
+\end{itemize}
+\textbf{Technologies}: C++, Javascript, Nodejs, Docker, Git
+}
+
+\vspace{2ex}
+\section{Education}
+\cventry{\textcolor{color2}{2012--2015}}{Master}{ENSICAEN/UNICEAN}{Caen(France)}{}
+{
+Diplôme d’ingénieur en informatique spécialité Monétique et Sécurité Informatique 
+avec un double diplôme spécialisé dans l’algorithmique et la cryptographie avancée.
+}   % arguments 3 to 6 can be left empty
+
+%\section{Project}
+%\subsection{Vocational}
+%\cventry{}{}{}{}{}{}
+%
+
+%\section{Languages}
+%\cvitemwithcomment{French}{Maternal language}{}
+%\cvitemwithcomment{English}{professional use}{}
+%\cvitemwithcomment{Serbian}{Maternal language}{}
+
+
+
+
+
+%\section{Hobbies}
+%{Coffee Geek, Sport addict, tech enthusiast}
+\end{document}
+
+
+%% end of file `template.tex'.

@@ -1,0 +1,157 @@
+%% start of file `template.tex'.
+%% Copyright 2006-2013 Xavier Danaux (xdanaux@gmail.com).
+%
+% This work may be distributed and/or modified under the
+% conditions of the LaTeX Project Public License version 1.3c,
+% available at http://www.latex-project.org/lppl/.
+
+
+\documentclass[10pt,a4paper,sans]{moderncv}        % possible options include font size ('10pt', '11pt' and '12pt'), paper size ('a4paper', 'letterpaper', 'a5paper', 'legalpaper', 'executivepaper' and 'landscape') and font family ('sans' and 'roman')
+
+% moderncv themes
+\moderncvstyle{classic}                             % style options are 'casual' (default), 'classic', 'oldstyle' and 'banking'
+\moderncvcolor{blue}                               % color options 'blue' (default), 'orange', 'green', 'red', 'purple', 'grey' and 'black'
+%\renewcommand{\familydefault}{\sfdefault}         % to set the default font; use '\sfdefault' for the default sans serif font, '\rmdefault' for the default roman one, or any tex font name
+%\nopagenumbers{}                                  % uncomment to suppress automatic page numbering for CVs longer than one page
+
+% character encoding
+\usepackage[utf8]{inputenc}                       % if you are not using xelatex ou lualatex, replace by the encoding you are using
+%\usepackage{CJKutf8}                              % if you need to use CJK to typeset your resume in Chinese, Japanese or Korean
+
+% adjust the page margins
+\usepackage[scale=0.75]{geometry}
+%\setlength{\hintscolumnwidth}{3cm}                % if you want to change the width of the column with the dates
+%\setlength{\makecvtitlenamewidth}{10cm}           % for the 'classic' style, if you want to force the width allocated to your name and avoid line breaks. be careful though, the length is normally calculated to avoid any overlap with your personal info; use this at your own typographical risks...
+
+% personal data
+\name{Nikola}{Slavnic}
+\title{Software Engineer}                               % optional, remove / comment the line if not wanted
+%\address{street and number}{postcode city}{country}% optional, remove / comment the line if not wanted; the "postcode city" and and "country" arguments can be omitted or provided empty
+\phone[mobile]{06.87.75.53.82}                   % optional, remove / comment the line if not wanted
+%\phone[fixed]{+2~(345)~678~901}                    % optional, remove / comment the line if not wanted
+%\phone[fax]{+3~(456)~789~012}                      % optional, remove / comment the line if not wanted
+\email{slavnic.n@gmail.com}                                % optional, remove / comment the line if not wanted
+\homepage{ www.linkedin.com/in/nsla}                         % optional, remove / comment the line if not wanted
+%\extrainfo{additional information}                 % optional, remove / comment the line if not wanted
+%\photo[64pt][0.4pt]{picture}                       % optional, remove / comment the line if not wanted; '64pt' is the height the picture must be resized to, 0.4pt is the thickness of the frame around it (put it to 0pt for no frame) and 'picture' is the name of the picture file
+%\quote{Some quote}                                 % optional, remove / comment the line if not wanted
+
+% to show numerical labels in the bibliography (default is to show no labels); only useful if you make citations in your resume
+%\makeatletter
+%\renewcommand*{\bibliographyitemlabel}{\@biblabel{\arabic{enumiv}}}
+%\makeatother
+%\renewcommand*{\bibliographyitemlabel}{[\arabic{enumiv}]}% CONSIDER REPLACING THE ABOVE BY THIS
+
+% bibliography with mutiple entries
+%\usepackage{multibib}
+%\newcites{book,misc}{{Books},{Others}}
+%----------------------------------------------------------------------------------
+%            content
+%----------------------------------------------------------------------------------
+\begin{document}
+%\begin{CJK*}{UTF8}{gbsn}                          % to typeset your resume in Chinese using CJK
+%-----       resume       ---------------------------------------------------------
+
+\vspace*{-3.5\baselineskip}
+\makecvtitle
+\vspace*{-2.5\baselineskip}
+\section{Summary}
+{An enthusiastic blockchain developer with a strong interest in security/cryptography and all innovation. Always looking for challenges and new ways to improve.}
+
+\section{Experience}
+%\subsection{Vocational}
+\cventry{\textcolor{color2}{Since March 2022}}{Blockchain Software Engineer}{Eniblock}{Paris}{}{
+\begin{itemize}%
+\item Tokenization of asset with a mutli-signature smartcontract 
+\begin{itemize}%
+\item Permissioned and upgradable ERC-20 smartcontract 
+\item Custom upgradable multisignature smartcontract
+\end{itemize}
+\item Worked with a client to build a real estate token and integrate it on AAVE 
+\begin{itemize}%
+\item Forked of the AAVE protocol with the real estate token added 
+\item Simple mintable/burnable ERC-20 representing the real estat asset
+\item Smart contracts deployed on Goerli and Mumbai testnet and the Dapp on Vercel
+\end{itemize}
+\item Implementation of a Dapp in React integrating the EIP-712 and a smart contract that verify the signature 
+\item Worked on fully on-chain marketplace smart contract prototype 
+\item Test implementation and integration to CI/CD for several projects
+\item Tech watch on blockchain eco-system and knowledge sharing/presentation within the team 
+\item Conducted interviews for new blockchain developer recruts
+\end{itemize}
+}
+%\cventry{\textcolor{color2}{Sept 2019 - Jan 2022}}{Software Engineer in Digital R\&D}{Thales (ex Gemalto)}{Paris}{}{
+%\begin{itemize}%
+%\item Implementing a proof of concept on post-quantum cryptography algorithm (LMS, Crystals-Dilithium) in order to prepare products for quantum threat
+%\end{itemize}
+%}
+\cventry{\textcolor{color2}{2015-2022}}{Software Engineer in Digital R\&D}{Gemalto/Thales}{Paris}{}{
+%
+\begin{itemize}%
+\item Lead dev on Biometric product, integration of facial and iris biometry algorithm
+\item Implementing a proof of concept on post-quantum cryptography algorithm (LMS, Crystals-Dilithium) in order to prepare products for quantum threat
+\item Implementing and improving test suite for identity cards products
+\end{itemize}
+}
+\cventry{\textcolor{color2}{Mars--Aug 2015}}{Intern Software Developer}{Gemalto}{Paris}{}{
+%
+\begin{itemize}%
+\item Developing a gateway prototype that analyses and secures transactions between a user
+and Cloud services. The security is performed using Homomorphic encryption scheme.
+\end{itemize}}
+%\subsection{Miscellaneous}
+
+\section{Education}
+\cventry{\textcolor{color2}{2012--2015}}{Master}{ENSICAEN}{Caen(France)}{}
+{
+Computer science engineering diploma (eq. Master CS) focusing on Software Engineering
+with a specialisation in Computer Security
+}   % arguments 3 to 6 can be left empty
+\cventry{\textcolor{color2}{2014--2015}}{Master}{UNICAEN}{Caen(France)}{}
+{
+Double degree in Computer Science, focusing on algorithmic and advanced cryptography
+}
+\cventry{\textcolor{color2}{2010--2012}}{Preparatory Class}{}{Paris(France)}{}
+{
+Intensive lectures in advanced mathematics and physics for the challenging entering test
+in Engineering school
+}
+
+%\section{Project}
+%\subsection{Vocational}
+%\cventry{}{}{}{}{}{}
+%
+
+%\section{Languages}
+%\cvitemwithcomment{French}{Maternal language}{}
+%\cvitemwithcomment{English}{professional use}{}
+%\cvitemwithcomment{Serbian}{Maternal language}{}
+
+\section{Blockchain skills}
+%\cvdoubleitem{\textcolor{color2}{Programming}}{Solidity, Javascript, Python}{}{}
+%\cvdoubleitem{\textcolor{color2}{Framerwork}}{Hardhat, Foundry, TheGraph, Tenderly, Truffle}{}{}
+%\cvdoubleitem{\textcolor{color2}{Web}}{React, Nodejs }{}{}
+%\cvdoubleitem{\textcolor{color2}{Library}}{Ether.js, OpenZeppelin, Alchemy}{}{}
+%\cvdoubleitem{\textcolor{color2}{Cryptography}}{PQC, Signature, Sym/Asym}{}{}
+\cvcomputer{\textcolor{color2}{Framework}}{Hardhat, Foundry, Tenderly, Truffle}
+{\textcolor{color2}{Defi}}{AAVE, Uniswap}{}
+\cvcomputer{\textcolor{color2}{Library}}{Ethers.js, OpenZeppelin, Alchemy, GnosisSafe}
+{\textcolor{color2}{Other}}{Ethernaut, Smart contract Audit, Technology watch }{}
+\cvdoubleitem{\textcolor{color2}{Marketplace}}{Seaport/Opensea, Rarible, }{}{}
+\cvdoubleitem{\textcolor{color2}{Standard}}{EIP (2771, 712, ...), BIP39 usage}{}{}
+
+\section{Computer/Soft skills}
+\cvcomputer{\textcolor{color2}{Programming}}{Solidity, Javascript, Python}
+{\textcolor{color2}{Web}}{React, Nodejs, Graphql}{}
+
+\cvcomputer{\textcolor{color2}{Cryptography}}{ECDSA, Signature, Sym/Asym}
+{\textcolor{color2}{Languages}}{French, English, Serbian}{}
+
+
+
+%\section{Hobbies}
+%{Coffee Geek, Sport addict, tech enthusiast}
+\end{document}
+
+
+%% end of file `template.tex'.
