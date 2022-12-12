@@ -3,22 +3,23 @@ Tags:
 
 # SSH with multiple account git
 
-Still trying to figure it out 
+Still trying to figure it out I think I got it
 
 '''
-#activehacker account
-Host github.com-activehacker
+#Default account
+Host github.com
 	HostName github.com
 	User git
-	IdentityFile ~/.ssh/id_rsa_activehacker
+	IdentityFile ~/.ssh/id_rsa_default
 
-#jexchan account
-Host github.com-jexchan
+#perso account
+Host perso.github.com
 	HostName github.com
 	User git
-	IdentityFile ~/.ssh/id_rsa_jexchan
+	IdentityFile ~/.ssh/id_rsa_perso
 '''
     
 ---
 # References
 https://gist.github.com/jexchan/2351996
+https://www.freecodecamp.org/news/manage-multiple-github-accounts-the-ssh-way-2dadc30ccaca/
