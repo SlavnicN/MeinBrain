@@ -1,11 +1,9 @@
 
-# Week 10 - 14 oct
+# Week 24 - 28 oct
 
 -- High
 
 - Casion POC
-    - [X] Write TBR spec/doc for Casino jira tickets
-    - [X] Read the SVP Casino
     - [ ] (maybe) Create interface with the const for Roles and for data struct
     - [ ] Add CI to gitlab branch dev_casino 
     - [ ] Add reentrancy protection and do a checkup with the list
@@ -15,36 +13,28 @@
     - [ ] Add smock test
     - [ ] try test with foundry 
 
-- AAVE fork:
-    - [X] Understant why deploy doesn't work 
-        -> the TX were stuck in pending because the gas paid was too low to 
-            be processed 
-
 - HR - Administratif 
     - [ ] Change mail xdev to Eniblock
-    - [ ] Change LinkedIn
-    - [ ] Prepare Welcom to the Jungle itw
+    - Change LinkedIn
+        [ ] Change the banner with Eniblock
+        [ ] Add new expreiences
+        [ ] Update Thales dates
+        [ ] Add people from interviewing to linkedin 
+        [ ] Add Freelancer from Enblock Mathieu, Corentin, Omar 
+
+    - Prepare Welcom to the Jungle itw
         - [ ] First version 
         - [ ] Train with people 
-    - [X] Github Eniblock account 
-    - [X] Resume update for Eniblock
 
 - Skill rampup
     - [ ] Play with Ethernaut
-      - [X] Add Wallet on Slack
-      - [ ] 1. Fallback
-      - [X] Recovery (web3 team workshop) 
-
-- Web3 team workshop
-    - [ ] require vs import in .js 
-    - [ ] how to see if hh node is on the fork 
-    - [ ] how to find the block number when a SC was deployed 
-    - [ ] Can't access to the contract via the fork, use the hardhat console ? 
+      - [ ] Fallback
 
 -- Medium
 
 - [ ] Play with tenderly
-- [ ] Play with snapshot HH
+- Play with snapshot HH
+    - [X] Tried it with Gnosis smartcontract but didn't work
 - [ ] Update Swap SC HTCL, Security
 - [ ] Add terminal Solidity
 - [ ] Account Infura
@@ -53,6 +43,34 @@
 - [ ] Check Rust in BC (<https://ink.substrate.io/>)
 - [ ] Search for top 10 security breach on Tezos SC
 - [ ] Do same work done on working group for eth
+
+# Week 17 - 21 oct
+
+-- High
+
+- Casion POC
+    - [X] Write TBR spec/doc for Casino jira tickets
+    - [X] Read the SVP Casino
+
+- AAVE fork:
+    - [X] Understant why deploy doesn't work 
+        -> the TX were stuck in pending because the gas paid was too low to 
+            be processed 
+    - [X] Test simple gnosis safe with Casino AAVE
+
+    - [X] Github Eniblock account 
+    - [X] Resume update for Eniblock
+
+- Skill rampup
+    - [ ] Play with Ethernaut
+      - [X] Add Wallet on Slack
+      - [X] Recovery (web3 team workshop) 
+
+- Web3 team workshop
+     [X] require vs import in .js 
+     [X] how to see if hh node is on the fork 
+     [X] how to find the block number when a SC was deployed 
+     [X] Can't access to the contract via the fork, use the hardhat console ? 
 
 # Week 25 - 30 sept
 

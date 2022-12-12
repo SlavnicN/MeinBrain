@@ -17,7 +17,7 @@
 - [ ] subtile highlight for object same name: https://github.com/RRethy/vim-illuminate
 - [ ] some pretty tree for todo: https://github.com/phaazon/mind.nvim
 - [X] Add a middle line to know limit to write a line
-- [ ] Ctrl + D/U put the line in the middle of the screen 
+- [X] Ctrl + D/U put the line in the middle of the screen 
 - [X] Configure Telescope to also take in account the file in gitignore
 - [ ] Undotree to get a history of what you have done in changes 
 - [ ] Add icon in the nvm-cmp https://github.com/onsails/lspkind.nvim
@@ -26,6 +26,7 @@
 - [ ] have a cursor that move smoothly 
     - https://www.reddit.com/r/neovim/comments/xfjxoy/new_awesome_cursor_plugin/
     - https://github.com/karb94/neoscroll.nvim
+- [ ] Add countour on the floating box for LSP and CMP 
 
 -- links
 ideas from pluggin here: https://github.com/weebcyberpunk/nyanvim
@@ -63,11 +64,13 @@ https://www.reddit.com/r/unixporn/comments/w58g9p/dwm_phyos_beta_iso_released_so
 - [ ] add icon for files 
 
 # Software and Other
+- [ ] Try to make colemak layout work easely with the open source Bigthing
+    - Look for which layout is best (AngleMod/Wide)
 - [ ] Setup my latex cv in VScode and github
 - [ ] [[Autocompletion in zsh + startship + kitty]]
 - [ ] Clean Linux home
 - [ ] check out LibreWolf browser 
-- [ ] pomodor terminal timer
+- [ ] pomodor terminal timer (is it really necessary) 
 - [ ] See comparaison between moonlander and wierd keyboard
 	- [ ] NOT FOR NOW ! WAIT END OF YEAR ! 
 	- [ ] FOCUS ON ACTUAL WORK BEFORE THINKING OPTI
@@ -76,7 +79,6 @@ https://www.reddit.com/r/unixporn/comments/w58g9p/dwm_phyos_beta_iso_released_so
 - [X] Notes in your github too
 - [ ] look into git tree thing 
 - [X] Spotify in terminal (no need)
-- [ ] Install colemake on ubuntu
 
 
 
