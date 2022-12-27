@@ -1,7 +1,7 @@
 # NeoVim
 - [ ] switch to lua config instead of hybrid vimscript/lua 
 - [ ] ctrlp.vim
-- [ ] [[Which autocompletion]]
+- [[Which autocompletion]]
 	- [ ] Rust
     - [ ] How to make lsp recognize import framework ? (ex for smartpy) 
     - [ ] C (for dwm)
@@ -27,6 +27,7 @@
     - https://www.reddit.com/r/neovim/comments/xfjxoy/new_awesome_cursor_plugin/
     - https://github.com/karb94/neoscroll.nvim
 - [ ] Add countour on the floating box for LSP and CMP 
+- [ ] Try harpoon from ThePrimegean
 
 -- links
 ideas from pluggin here: https://github.com/weebcyberpunk/nyanvim
@@ -60,6 +61,9 @@ https://www.reddit.com/r/unixporn/comments/w58g9p/dwm_phyos_beta_iso_released_so
 - [ ] More for Zettelkasten goal look at the book "How to take smartnote"
 - [ ] Backlink in Obsidian (from a note where is it call)
 
+# TMUX
+- [X] Catppuccin theme
+    
 # Alacritty -> Kitty
 - [ ] add icon for files 
 
