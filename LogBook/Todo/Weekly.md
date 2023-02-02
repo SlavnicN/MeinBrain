@@ -1,3 +1,48 @@
+# Week 30 - 03 oct
+-- high
+    NFT horses project:
+        - [X] see with Constant 
+        - [ ] review with Faisal 
+
+    eSov
+        - [ ] Prepare prez on blockchain public/private
+        
+        - [ ] think about question triggering more the problematic not the 
+            solution 
+            - [ ] Read the whitepaper from Vault12
+
+        - [ ] Redaction du backlog
+            - [ ] Review the thing Nassim put in Jira 
+
+        - [ ] Copy the compilation generation on Scaffold-eth 
+        - [ ] Think of the architecture with Faisal 
+
+        - [X] Search for the notification/handler decentralized and secure 
+            - Need to test some of theme 
+            - [ ] Lambda, EvenBridge 
+            
+    Panelys
+        - [ ] suggest a blockchain archi (Push+Cacao) (6 Fev)
+            - Doc + onboarding client
+
+    Prez Learn:
+        - [X] Foundry and Forge
+        - [X] Custom error
+        - [ ] Tendrely
+        - [ ] Slither, how to configure it 
+
+    - [ ] Start learning Go
+    - [ ] Defi project  
+        - [ ] Read TP on defy
+        - [ ] Review Lionel TP
+
+-- low
+    - [ ] Add dev Metamask on Chrome
+    - [ ] Add filter to metadev3 mail
+    - [ ] Maybe see the treesitter probleme in neovim
+    - [ ] Configure airpod on ubuntu
+        - https://askubuntu.com/questions/922860/pairing-apple-airpods-as-headset
+
 # Week 23 - 27 oct
 
 -- high
@@ -8,39 +53,22 @@
             - [X] meeting with guys from Settlemint
 
     eSov
-        - [ ] think about question triggering more the problematic not the 
-            solution 
-            - [ ] Read the whitepaper from Vault12
-
-        - [ ] Redaction du backlog 
-        - [ ] Repartition des taches
+        - [X] Repartition des taches
             - [X] Split between Joe, Lionel, Francois, Thomas
 
         - [X] Mise en place de l'env de dev 
             -   [X] Wait to see with Fred
-        - [ ] Copy the compilation generation on Scaffold-eth 
-        - [ ] Think of the architecture with Faisal 
             - 
+
         - [X] Search for the notification/handler decentralized and secure 
             - Need to test some of theme 
             - [ ] Lambda, EvenBridge 
-        - [ ] Benchmark on protocol crypto 
+        - [X] Benchmark on protocol crypto 
+            - Thomas and Nassim on it 
             
     Panelys
-        - [ ] Read docs again before meeting monday 
-        - [ ] suggest a blockchain archi (Push+Cacao) (6 Fev)
-            - Doc + onboarding client
+        - [X] Read docs again before meeting monday 
 
-    Prez Learn:
-        - [ ] Foundry and Forge
-        - [ ] Custom error
-        - [ ] Tendrely
-        - [ ] Slither, how to configure it 
-
-    - [ ] Start learning Go
-    - [ ] Defi project  
-        - [ ] Read TP on defy
-        - [ ] Review Lionel TP
     - [X] Add navigo
     - [X] Config Zulip
             
@@ -48,13 +76,6 @@
         - Find idea that solve a specific probleme
             - DEFI AI ? 
             - Find SC in general in on-chain 
-
--- low
-    - [ ] Add dev Metamask on Chrome
-    - [ ] Add filter to metadev3 mail
-    - [ ] Maybe see the treesitter probleme in neovim
-    - [ ] Configure airpod on ubuntu
-        - https://askubuntu.com/questions/922860/pairing-apple-airpods-as-headset
 
 # Week 16 - 20 oct
 -- Onboarding Metadev3 
