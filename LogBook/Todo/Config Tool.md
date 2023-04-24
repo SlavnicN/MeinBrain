@@ -1,5 +1,5 @@
 # NeoVim
-- [ ] switch to lua config instead of hybrid vimscript/lua 
+- [X] switch to lua config instead of hybrid vimscript/lua 
 - [ ] ctrlp.vim
 - [[Which autocompletion]]
 	- [ ] Rust

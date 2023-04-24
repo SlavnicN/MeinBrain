@@ -21,6 +21,8 @@ Tags:
         - peut etre penser a representer ca sous Token
     - Point of Sales
         - Tracer les operations sur la BC 
+        
+
 ---
 # References
 

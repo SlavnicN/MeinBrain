@@ -66,6 +66,17 @@ As a dev you have to think of:
     for instance timestamp of use, which methode can be used by this key etc. So that you won't need to 
     approve/confirme everytime you have a transaction to make. Everytink will be automatically executed 
     
+
+
+## New article 
+
+- Use smartcontract wallets instead of EOA
+- Real Acount Abstraction need modification in the consensus layer of Eth, but
+    not EIP 4337
+
+[[EIP 4337]]
+
+    
 ---
 # References
 
