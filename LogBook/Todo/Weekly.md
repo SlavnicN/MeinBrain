@@ -1,7 +1,7 @@
-# Week 17 - 21 Mars
+# Week 24 - 28 Mars
     Settlemint
-        - [X] Read the presentation
         - [ ] Read about STO/ICO/Tokenized Eniblock
+        - [X] Prepare slides for references
 
     eSov
         App:
@@ -12,38 +12,58 @@
             - [ ] In file RecoveryFactory, replace external from 
                 getLegalSelectableAgents() to internal
             - [ ] checkunicity() is external but could be public instead
+            - [ ] Find how not to have issue when compile/deploying smartcontract
+                with hardhat
 
         Crypto
-            - [ ] Detailed diagram for Mine Researcher
+            - [X] Detailed diagram for Mine Researcher
+            - [X] Crypto doc
+                - [X] Write explaination 
+                - [X] Find better variable
+                - [X] Add more conclusion to the doc
+
+    Club Metadev3
+        - [X] Difference between Vue.js and Next.js as frontend
+        - [X] Difference between Next.js and Nest.js as a backend
+        - [ ] Go through the tickets and precise them 
+        - [ ] Define what does the backend here
+        - [X] Create the repo on gitlab
+
+    Workflow GitFlow
+        - [X] Think of the best practice for Spring/Git etc 
+        - [X] Write up good code good practice
+
+    Payinnov
+        - [X] Time estimation 
+            - [X] Prepare question for better timing => Wait for there responses
+
+    Perso
+        - [ ] fix clipboard probleme between VScode and rest
+        - [ ] Install zsh 
+
+# Week 17 - 21 Mars
+    Settlemint
+        - [X] Read the presentation
+
+    eSov
+        App:
+
+        Crypto
             - [ ] Crypto doc
-                - [ ] Write explaination 
-                - [ ] Find better variable
+                - [X] Schema 
 
     Share & Learn
             - [X] Presentation of Scaffold-eth and Tendrely
 
     Club Metadev3
         - [X] Go deeper in the tickets to precise them
-        - [ ] Look deeper into Magic link vs Keycloak
-        - [ ] Difference between Vue.js and Next.js as frontend
-        - [ ] Difference between Next.js and Nest.js as a backend
 
     Workflow GitFlow
-        - [ ] Think of the best practice for Spring/Git etc 
         - [X] set up CI on Pull request
             - [X] Make the CI work for my branch
-        - [ ] Write up good code good practice
-
-    Payinnov
-        - [ ] Time estimation 
-            - [ ] Prepare question for better timing => Wait for there responses
     
     Tezos
         - [X]  Add video links to a file in google drive
-
-    Perso
-        - [ ] fix clipboard probleme between VScode and rest
-        - [ ] Install zsh 
 
 # Week 03 - 07 Mars
     eSov
