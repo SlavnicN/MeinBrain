@@ -1,20 +1,32 @@
+# Week 2 - 5 Mai
+Settlemint
+    - [ ] Read about STO/ICO/Tokenized Eniblock
+
+eSov
+    App:
+        - [ ] Tool to check security (trail by bits)
+        - [ ] Change tx.origin (can be dangerous if a admin use wallet else
+            where than ESOV, the smartcontract could fallback to esov and 
+            do stuff)
+        - [ ] In file RecoveryFactory, replace external from 
+            getLegalSelectableAgents() to internal
+        - [ ] checkunicity() is external but could be public instead
+        - [ ] Find how not to have issue when compile/deploying smartcontract
+            with hardhat
+
+Club Metadev3
+    - [ ] Go through the tickets and precise them 
+    - [ ] Define what does the backend here
+
+Perso
+    - [ ] fix clipboard probleme between VScode and rest
+    - [ ] Install zsh 
+
 # Week 24 - 28 Mars
     Settlemint
-        - [ ] Read about STO/ICO/Tokenized Eniblock
         - [X] Prepare slides for references
 
     eSov
-        App:
-            - [ ] Tool to check security (trail by bits)
-            - [ ] Change tx.origin (can be dangerous if a admin use wallet else
-                where than ESOV, the smartcontract could fallback to esov and 
-                do stuff)
-            - [ ] In file RecoveryFactory, replace external from 
-                getLegalSelectableAgents() to internal
-            - [ ] checkunicity() is external but could be public instead
-            - [ ] Find how not to have issue when compile/deploying smartcontract
-                with hardhat
-
         Crypto
             - [X] Detailed diagram for Mine Researcher
             - [X] Crypto doc
@@ -25,8 +37,6 @@
     Club Metadev3
         - [X] Difference between Vue.js and Next.js as frontend
         - [X] Difference between Next.js and Nest.js as a backend
-        - [ ] Go through the tickets and precise them 
-        - [ ] Define what does the backend here
         - [X] Create the repo on gitlab
 
     Workflow GitFlow
@@ -36,10 +46,6 @@
     Payinnov
         - [X] Time estimation 
             - [X] Prepare question for better timing => Wait for there responses
-
-    Perso
-        - [ ] fix clipboard probleme between VScode and rest
-        - [ ] Install zsh 
 
 # Week 17 - 21 Mars
     Settlemint
