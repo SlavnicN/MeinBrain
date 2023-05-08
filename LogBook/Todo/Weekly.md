@@ -21,6 +21,7 @@ Club Metadev3
     - [ ] Look for Diamond NFT ?
 
 Perso
+    - [ ] reconfigure neovim
     - [ ] fix clipboard probleme between VScode and rest
     - [ ] Install zsh 
 
