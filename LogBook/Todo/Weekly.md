@@ -13,10 +13,12 @@ eSov
         - [ ] checkunicity() is external but could be public instead
         - [ ] Find how not to have issue when compile/deploying smartcontract
             with hardhat
+        - [X] install Slither for security
 
 Club Metadev3
     - [ ] Go through the tickets and precise them 
     - [ ] Define what does the backend here
+    - [ ] Look for Diamond NFT ?
 
 Perso
     - [ ] fix clipboard probleme between VScode and rest

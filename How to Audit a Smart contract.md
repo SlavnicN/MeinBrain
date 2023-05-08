@@ -10,7 +10,7 @@ Common vulnerability to check:
 - [[Retreance Attack]]
 - [[Oracle Manipulation]]
 - [[bad randomness]]:
-- [[Denial of Service]]:
+- [[Denial of Service]]
 - [[forced ether reception]]
 - [[incorect interface]]
 - [[over-underflow]]
