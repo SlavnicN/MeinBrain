@@ -19,6 +19,7 @@ Club Metadev3
     - [ ] Define what does the backend here
 
 Perso
+    - [ ] reconfigure neovim
     - [ ] fix clipboard probleme between VScode and rest
     - [ ] Install zsh 
 
