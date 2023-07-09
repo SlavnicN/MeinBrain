@@ -7,6 +7,9 @@ Tags: [[blockchain]]
 - each block contain data of a transaction transfering value between participant, secure by crypto
 - Fully decentrlized shared by participant identicaly
 - Data put on it can't be changed 
+- Secured by consensus mechanisme
 
+
+Comprendre la blockchain
 ---
 # References

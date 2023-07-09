@@ -1,6 +1,17 @@
 2023/01/16 13:42:44
 Tags: [[eSov]]
 
+# Lionel mr
+
+- Widget suppression
+[ ] Delete functionality that is not used anymore (big button Recorvery)
+- Remove try 5 time pwd
+- rooter vers vault
+- remove counter du vault
+- beaucoup de front
+- version web remove create account 
+
+- next for Lionel, 
 # eSov Project Brainstorm
 
 - Decentralized secret management protocol.

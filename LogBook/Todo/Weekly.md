@@ -1,29 +1,149 @@
-# Week 2 - 5 Mai
+# Week 05 - 09 Mai
+
+
+Article Metadev3: 
+    - [ ] Write 2 articles on blockchain 
+    
+eSov
+    Other tickets:
+        - [ ] Write down task remaining 
+    Audit:
+        - check other tools from: https://consensys.github.io/smart-contract-best-practices/security-tools/static-and-dynamic-analysis/
+        - [ ] Verify that the app is working with change with tx.origin
+            - why does the forwarder do not have this probleme
+        - [ ] Add require where needed 
+    Doc:
+        - [ ] writer documentation/archi of yousov app
+            - [ ] Archi application
+            - [ ] Archi smartcontract
+
+Club Metadev3
+    - [ ] Estimation whole project
+    - [WIP] Define what does the backend here
+    - [ ] Look for Diamond NFT
+        - [ ] dynamic NFT
+    - [WIP] Archi in miro
+    - [ ] Restrict page access
+    - [ ] how to notify user on nft progress
+    - [ ] Do we need a load Balancer for the request from frontend
+    - [ ] Look for example of Token fidelity project
+    - [ ] Verify that the data now are added in database when minted
+    - [ ] Modify name Avatar to Profil or smth like that 
+    - [ ] Remove docker on the root file 
+    - [ ] Send screenshot of the site to the ux team
+
+Perso
+    - [ ] Look for building your own Magiclink wallet with aws Cognito
+    - [ ] reconfigure neovim
+        - [ ] try to configure nvchad with zero-lsp
+    - [ ] Install zsh
+    - [ ] fix icons issue in kitty
+    
+
+# Week 23 - 26 Mai
 Settlemint
     - [ ] Read about STO/ICO/Tokenized Eniblock
 
 eSov
-    App:
-        - [ ] Tool to check security (trail by bits)
-        - [ ] Change tx.origin (can be dangerous if a admin use wallet else
-            where than ESOV, the smartcontract could fallback to esov and 
-            do stuff)
-        - [ ] In file RecoveryFactory, replace external from 
-            getLegalSelectableAgents() to internal
-        - [ ] checkunicity() is external but could be public instead
-        - [ ] Find how not to have issue when compile/deploying smartcontract
-            with hardhat
-        - [X] install Slither for security
+    Audit:
+        - check other tools from: https://consensys.github.io/smart-contract-best-practices/security-tools/static-and-dynamic-analysis/
+        - [ ] Verify that the app is working with change with tx.origin
+            - why does the forwarder do not have this probleme
+        - [ ] Add require where needed 
+    Doc:
+        - [ ] writer documentation/archi of yousov app
+            - [ ] Archi application
+            - [ ] Archi smartcontract
 
 Club Metadev3
-    - [ ] Go through the tickets and precise them 
-    - [ ] Define what does the backend here
-    - [ ] Look for Diamond NFT ?
+    - [ ] Estimation whole project
+    - [WIP] Define what does the backend here
+    - [ ] Look for Diamond NFT
+        - [ ] dynamic NFT
+    - [WIP] Archi in miro
+    - [ ] Restrict page access
+    - [ ] how to notify user on nft progress
+    - [ ] Do we need a load Balancer for the request from frontend
+    - [ ] Look for example of Token fidelity project
+    - [ ] Verify that the data now are added in database when minted
+    - [ ] Modify name Avatar to Profil or smth like that 
 
 Perso
+    - [ ] Look for building your own Magiclink wallet with aws Cognito
     - [ ] reconfigure neovim
-    - [ ] fix clipboard probleme between VScode and rest
-    - [ ] Install zsh 
+        - [ ] try to configure nvchad with zero-lsp
+    - [ ] Install zsh
+    - [ ] fix icons issue in kitty
+    
+# Week 15 - 17 Mai
+Settlemint
+    - [ ] Read about STO/ICO/Tokenized Eniblock
+
+eSov
+    Audit:
+        - check other tools from: https://consensys.github.io/smart-contract-best-practices/security-tools/static-and-dynamic-analysis/
+        - [ ] Verify that the app is working with change with tx.origin
+            - why does the forwarder do not have this probleme
+    Doc:
+        - [ ] writer documentation/archi of yousov app
+            - [ ] Archi application
+            - [ ] Archi smartcontract
+
+Club Metadev3
+    - [WIP] Define what does the backend here
+    - [X] Add Admin page 
+    - [ ] Look for Diamond NFT
+        - [ ] dynamic NFT
+    - [WIP] Archi in miro
+    - [ ] Restrict page access
+    - [ ] how to notify user on nft progress
+    - [ ] Do we need a load Balancer for the request from frontend
+    - [ ] Look for example of Token fidelity project
+
+Perso
+    - [ ] Look for building your own Magiclink wallet with aws Cognito
+    - [ ] reconfigure neovim
+        - [ ] try to configure nvchad with zero-lsp
+    - [ ] Install zsh
+    - [ ] fix icons issue in kitty
+
+# Week 2 - 5 Mai
+eSov
+    Audit:
+        - check other tools from: https://consensys.github.io/smart-contract-best-practices/security-tools/static-and-dynamic-analysis/
+        - Tool to check security (trail by bits)
+            - [X] slither
+                - 1 Reentrency attack solved on claimFreeEZR
+            - [-] Mythril
+                -> Coudln't make it work
+
+        - [X] Change tx.origin (can be dangerous if a admin use wallet else
+            where than ESOV, the smartcontract could fallback to esov and 
+            do stuff)
+
+        - [X] In file RecoveryFactory, replace external from
+            getLegalSelectableAgents() to internal
+            - [X] was replace to a public
+
+        - [X] Find how not to have issue when compile/deploying smartcontract
+            with hardhat
+
+        - [X] check storage write variable and require juste before to see who can
+            modify those variable
+            => No Issue there
+        - [X] Change version to a fix solidity version
+
+
+Club Metadev3
+    - [X] Go through the tickets and precise them
+    - [X] Add dashboard in Jira
+
+Avalanche project:
+    - [X] Research on Avalanche Subnet
+
+Perso
+    - [X] fix clipboard probleme between VScode and rest
+
 
 # Week 24 - 28 Mars
     Settlemint
