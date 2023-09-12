@@ -3,6 +3,19 @@ Tags:
 
 # Club Metadev3
 
+- Nouveau ticket
+    - Thomas : Automatise l'a creation de wallet dans le dashboard 
+    - ajout au wallet comapny lors de l'inscription
+    - ajouter les role dans les smartcontracts (peut etre pas prioritaire)
+    - Sasha: gas station
+    - rendre sexy profile (enlever le nom) 
+    - Hugo: storage/service magiclink
+    - Nikola: Web3Auth
+    - Separer les avantage perso et company, ne pas utilise
+        de token pour les company 
+
+
+
 
 - Setup un env de demo
     - branch staging/test

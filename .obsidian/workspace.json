@@ -1,0 +1,206 @@
+{
+  "main": {
+    "id": "f4ec882f183db00d",
+    "type": "split",
+    "children": [
+      {
+        "id": "3e38c5b8b90b5d8e",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "7e3b0f6f5575fffb",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "LogBook/Todo/TODO MetaDev3.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "8931dddddd22ce97",
+            "type": "leaf",
+            "state": {
+              "type": "empty",
+              "state": {}
+            }
+          },
+          {
+            "id": "11e8604975878389",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "CM3 Retour Fred.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1bb4281b81662457",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Appel d'offre Fleche.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "80e201720978052f",
+            "type": "leaf",
+            "state": {
+              "type": "canvas",
+              "state": {
+                "file": "Carriere path.canvas",
+                "viewState": {
+                  "x": -365.9663515898177,
+                  "y": -30.00073262584698,
+                  "zoom": 1
+                }
+              }
+            }
+          }
+        ],
+        "currentTab": 4
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "de9e7f8667fd7450",
+    "type": "split",
+    "children": [
+      {
+        "id": "eeaa3a735416223b",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "6085eaf9b3573e97",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b50fe92e1c073d36",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "flech",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "b8ba1f0dba94d069",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 276
+  },
+  "right": {
+    "id": "dcb149e788d86271",
+    "type": "split",
+    "children": [
+      {
+        "id": "0ca25a43114d2027",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "2b2acca8bd2b8e9d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Carriere path.canvas",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "15c0886cae2eec4b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 200
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false,
+      "markdown-importer:Open format converter": false
+    }
+  },
+  "active": "80e201720978052f",
+  "lastOpenFiles": [
+    "LogBook/Todo/TODO MetaDev3.md",
+    "Carriere path.canvas",
+    "blockchain.md",
+    "Question Crypt.md",
+    "CM3 Retour Fred.md",
+    "AI and Blockchain.md",
+    "AWS pain point.md",
+    "Club Metadev3.md",
+    "Pasted image 20230829125736.png",
+    "Appel d'offre Fleche.md",
+    "ClubMetadev3 Account Creation.md",
+    "TODO.md",
+    "Todo.md",
+    "todo.md",
+    "LogBook/Diary/July.md",
+    "LogBook/Todo/Weekly.md",
+    "Swisslife Workshop.md",
+    "Untitled 1.canvas",
+    "TodoCM.md",
+    "LogBook/Meeting/05-07-22  - Weekly meeting.md",
+    "Account Abstraction.md",
+    "Account nonce.md",
+    "LogBook/Todo/Config Tool.md",
+    "Avalanche Subnet.md",
+    "Avalanche blockchain.md",
+    "APY.3.md",
+    "eSov App Workshop.md",
+    "2023-05-31.md",
+    "Untitled.canvas"
+  ]
+}

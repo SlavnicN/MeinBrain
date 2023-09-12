@@ -1,0 +1,9 @@
+{
+	"nodes":[
+		{"id":"20bcd96a825b4025","x":-680,"y":-200,"width":250,"height":50,"type":"text","text":"Embbeded software engineer"},
+		{"id":"6d04161931236035","x":-586,"y":-4,"width":250,"height":60,"type":"text","text":""}
+	],
+	"edges":[
+		{"id":"97d8a7c4b6d71cc3","fromNode":"20bcd96a825b4025","fromSide":"bottom","toNode":"6d04161931236035","toSide":"top"}
+	]
+}

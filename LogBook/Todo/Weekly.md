@@ -1,12 +1,15 @@
+# Week 24 - 28 Juillet 
+- [ ] Repair backend for the aws page
+- [x] Slides Swisslife smartcontract
+- [ ] Terraform deployement S3 of Yousov
+
 # Week 05 - 09 Mai
 
-
 Article Metadev3: 
-    - [ ] Write 2 articles on blockchain 
-    
+- [ ] Write 2 articles on blockchain 
 eSov
     Other tickets:
-        - [ ] Write down task remaining 
+	- [ ] Write down task remaining 
     Audit:
         - check other tools from: https://consensys.github.io/smart-contract-best-practices/security-tools/static-and-dynamic-analysis/
         - [ ] Verify that the app is working with change with tx.origin

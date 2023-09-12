@@ -1,6 +1,12 @@
 2023/01/23 11:04:08
 Tags: [[eSov]]
 
+# Idea
+
+Avalanche: The validator can't be the user on phone, need server/node of some
+sort.
+# Crypto workshop
+- 
 # eSov App Workshop
 
 - Keep the payment of the app at install 
