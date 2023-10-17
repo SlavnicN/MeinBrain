@@ -1,4 +1,3 @@
 - remove path in project and put it in .env
 - see how to add test in backend to easy the mr
-- try to add new page/table/ to understand how it works 
-- add technology used for this website (Diamond, wallet factory, nft dynamic, forge, prisma, quasar, nest ... )
+- add technology used for this wbsite (Diamond, wallet factory, nft dynamic, forge, prisma, quasar, nest ... )
